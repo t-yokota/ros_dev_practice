@@ -10,10 +10,12 @@ class subLaserScan:
 		rospy.Subscriber('/scan', LaserScan, self.scanCallback)
 	
 	def scanCallback(self, scan):
-		rospy.loginfo("range:%f", scan.ranges[200])
+		rospy.loginfo("len:%f", len(scan.ranges))
+		for i in range(len(scan.ranges)):
+			rospy.loginfo("val[%d]:%f", i, scan.ranges[i])
 
 if __name__ ==  '__main__':
 	try:
-		sLS = subLaserScan()
+		sls = subLaserScan()
 		rospy.spin()
 	except rospy.ROSInterruptException: pass
