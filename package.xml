@@ -1,3 +1,5 @@
+<!--added some dependencies for gazebo 2018/12/22 t-yokota -->
+
 <?xml version="1.0"?>
 <package format="2">
   <name>dev_practice</name>
@@ -53,10 +55,16 @@
   <build_export_depend>rospy</build_export_depend>
   <exec_depend>rospy</exec_depend>
 
+  <!--added for gazebo 2018/12/22 t-yokota -->
+  <depend>gazebo_ros</depend>
+  <exec_depend>gazebo</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
     <!-- Other tools can request additional information be placed here -->
+    
+    <!--added for gazebo 2018/12/22 t-yokota -->
+    <gazebo_ros gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models"/>
 
   </export>
 </package>
