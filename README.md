@@ -10,7 +10,7 @@
 
 ### Making my original (cylindrical) world
 
-- I want to make **the cylindrical wolrd** on gazebo, and the world surrounds the robot 360 degrees.
+- I want to make **the cylindrical wolrd** on gazebo. The world surrounds the robot 360 degrees.
   - The world is useful for checking the whole of the /scan values as shown in the below figures. 
 
 > <img src="https://raw.githubusercontent.com/t-yokota/ros_dev_practice/feature/get-reduced-LaserScan-value/figures/fig1_cylindrical_world.png" width="300"> <img src="https://raw.githubusercontent.com/t-yokota/ros_dev_practice/feature/get-reduced-LaserScan-value/figures/fig2_scan_value.png" width="308">
