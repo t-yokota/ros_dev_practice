@@ -2,9 +2,9 @@
 <!--added some dependencies for gazebo 2018/12/22 t-yokota -->
 
 <package format="2">
-  <name>dev_practice</name>
+  <name>ros_dev_practice</name>
   <version>0.0.0</version>
-  <description>The dev_practice package</description>
+  <description>The ros_dev_practice package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
