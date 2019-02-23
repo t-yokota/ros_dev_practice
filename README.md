@@ -17,7 +17,7 @@ using [Gazebo](http://emanual.robotis.com/docs/en/platform/turtlebot3/simulation
 
 <img src="https://github.com/t-yokota/ros_dev_practice/blob/figures/fig1_cylindrical_world.png" width="300"> <img src="https://github.com/t-yokota/ros_dev_practice/blob/figures/fig2_scan_value.png" width="308">
 
-> /launch/turtlebot3_myworld.launch  
+> /launch/turtlebot3_my_world.launch  
 > /worlds/cylinder.world  
 > /models/cylinder-mesh.dae  
 
